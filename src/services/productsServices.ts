@@ -20,4 +20,13 @@ const newProduct = async (product: IProducts): Promise<IProducts> => {
   return { id: insertId, ...product };
 };
 
-export default { newProduct };
+const getAll = async () => {
+  const data = await productsModels.getAll();
+
+  return data;
+}
+
+export default { 
+  newProduct,
+  getAll,
+};

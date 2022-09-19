@@ -9,4 +9,17 @@ const create = async (product: IProducts): Promise<ResultSetHeader> => {
   return result;
 };
 
-export default { create };
+const getAll = async (): Promise<ResultSetHeader> => {
+  const query = 'SELECT * FROM Products';
+
+  const [result] = await connection.execute<ResultSetHeader>(query);
+
+  console.log(result);
+
+  return result;
+};
+
+export default { 
+  create,
+  getAll,
+};
