@@ -10,7 +10,7 @@ const create = async (product: IProducts): Promise<ResultSetHeader> => {
 };
 
 const getAll = async (): Promise<ResultSetHeader> => {
-  const query = 'SELECT * FROM Products';
+  const query = 'SELECT * FROM Trybesmith.Products';
 
   const [result] = await connection.execute<ResultSetHeader>(query);
 
