@@ -11,7 +11,7 @@ productsController.post('/', async (req: Request, res: Response): Promise<Respon
 productsController.get('/', async (_req: Request, res: Response): Promise<Response> => {
   const productsList = await productsServices.getAll();
 
-  return res.status(200).json(productsList)
-})
+  return res.status(200).json(productsList);
+});
 
 export default productsController;

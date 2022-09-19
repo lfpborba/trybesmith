@@ -15,7 +15,6 @@ const newProduct = async (product: IProducts): Promise<IProducts> => {
   }
 
   const { insertId } = await productsModels.create(product);
-  // product.id = insertId;
 
   return { id: insertId, ...product };
 };
@@ -24,7 +23,7 @@ const getAll = async () => {
   const data = await productsModels.getAll();
 
   return data;
-}
+};
 
 export default { 
   newProduct,
