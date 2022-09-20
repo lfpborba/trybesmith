@@ -14,8 +14,6 @@ const getAll = async (): Promise<ResultSetHeader> => {
 
   const [result] = await connection.execute<ResultSetHeader>(query);
 
-  console.log(result);
-
   return result;
 };
 
