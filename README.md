@@ -1,10 +1,12 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# 💻 Projeto
+API para uma loja de itens medievais utilizando a arquitetura MSC (model-service-controller).
+# 🚀 Tecnologias
+Este projeto foi desenvolvido com as seguintes tecnologias:
+-	Node.js
+-	MySQL
+-	TypeScript
+# 📌 Habilidades
+Neste projeto, desenvolvi as seguintes habilidades:
+-	Programar em linguagem TypeScript;
+-	Desenvolver uma API de um CRUD (Create, Read, Update e Delete);
+-	Desenvolver endpoints para ler e escrever em um banco de dados MySQL.
